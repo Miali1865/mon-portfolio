@@ -1,38 +1,35 @@
-<section class="bg-[#e8c3b8] w-full min-h-screen flex items-center font-[Poppins]">
-  <!-- Container principal -->
-  <div class="flex flex-col md:flex-row items-center justify-between gap-10 w-full px-8 md:px-16 xl:px-32 py-10">
+<section class="bg-gradient-to-br from-[#fcf7f7] to-[#e8c3b8] w-full min-h-screen flex items-center font-[Poppins] overflow-hidden">
+  <div class="flex flex-col md:flex-row items-center justify-between gap-12 w-full px-8 md:px-16 xl:px-32 py-20">
 
-    <!-- Texte à gauche -->
     <div class="flex-1 space-y-6 text-left">
-      <h1 class="text-5xl font-extrabold text-gray-700 italic tracking-wide">
-        Bienvenue
+      <h1 class="text-6xl font-extrabold text-[#b44a6a] tracking-wide font-['Playfair_Display',_serif] relative">
+        Bienvenue !
+        <span class="absolute -bottom-2 left-0 w-1/4 h-1 bg-[#b44a6a] rounded-full"></span>
       </h1>
 
-      <p class="text-xl leading-relaxed text-gray-800 italic">
-        Je suis <span class="font-semibold not-italic text-[#b44a6a]">Mialivola Randrianaivo</span>, développeuse web passionnée.
-        Voici mon <span class="underline decoration-[#b44a6a]">portfolio</span> présentant mes projets récents et mes compétences techniques.
+      <p class="text-xl leading-relaxed text-gray-700 mt-8 font-['Georgia',_serif]">
+        Je suis <span class="font-bold not-italic text-[#b44a6a]">Mialivola Randrianaivo</span>, développeuse web passionnée.
+        Découvrez mon <span class="font-bold italic">portfolio</span> qui présente mes projets récents et mes compétences techniques.
       </p>
 
-      <div class="flex flex-col sm:flex-row gap-4 mt-6">
-        <!-- Bouton Projets -->
-        <button class="px-6 py-3 bg-[#b44a6a] text-white rounded-lg shadow-md hover:bg-[#9d3e5d] transition-all duration-300 transform hover:scale-105">
+      <div class="flex flex-col sm:flex-row gap-6 mt-10">
+        <button class="px-8 py-4 bg-[#b44a6a] text-white rounded-full shadow-xl shadow-[#b44a6a]/30 hover:bg-[#9d3e5d] transition-all duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-2xl font-semibold tracking-wider">
           Découvrir mes projets
         </button>
 
-        <!-- Bouton Télécharger CV -->
         <a href="assets/pdf/cv.pdf" download
-           class="px-6 py-3 bg-white text-[#b44a6a] border-2 border-[#b44a6a] rounded-lg shadow-md hover:bg-[#b44a6a] hover:text-white transition-all duration-300 transform hover:scale-105 text-center">
+          class="px-8 py-4 bg-white text-[#b44a6a] border-2 border-[#b44a6a] rounded-full shadow-lg hover:bg-[#b44a6a] hover:text-white transition-all duration-500 ease-in-out transform hover:scale-105 font-semibold tracking-wider text-center">
           Télécharger CV
         </a>
       </div>
     </div>
 
-    <!-- Image à droite -->
-    <div class="flex-1 flex justify-center md:justify-end">
+    <div class="flex-1 flex justify-center md:justify-end relative">
+      <div class="absolute inset-0 bg-[#b44a6a]/10 rounded-[4rem] transform rotate-3 scale-105 hidden md:block z-0"></div>
       <img
         src="assets/miali2.jpg"
-        alt="Profil"
-        class="w-full max-w-md md:max-w-sm h-auto rounded-3xl shadow-2xl object-cover border-4 border-white"
+        alt="Profil de Mialivola Randrianaivo"
+        class="w-full max-w-md md:max-w-sm h-auto rounded-[3rem] shadow-2xl shadow-gray-500/50 object-cover border-8 border-white z-10 transition-all duration-700 hover:rotate-1 hover:scale-[1.02]"
       >
     </div>
   </div>
