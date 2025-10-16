@@ -1,103 +1,83 @@
-<section class="bg-[#fcf7f7] w-full py-20 px-8 md:px-16 xl:px-32 font-[Poppins]">
+<section class="bg-[#fcf7f7] w-full py-20 px-6 md:px-16 xl:px-32 font-[Poppins]">
   <div class="max-w-7xl mx-auto">
 
-    <h2 class="text-5xl font-extrabold text-[#b44a6a] tracking-wide font-['Playfair_Display',_serif] mb-16 text-center relative">
+    <!-- Titre principal -->
+    <h2 class="text-4xl sm:text-5xl font-extrabold text-[#b44a6a] tracking-wide font-['Playfair_Display',_serif] mb-16 text-center relative">
       Mon Parcours & Mes Projets
-      <span class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#e8c3b8] rounded-full"></span>
+      <span class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-[#e8c3b8] rounded-full"></span>
     </h2>
 
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+    <!-- Grille de cartes -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
 
-      <div class="lg:col-span-2 space-y-10">
-        <h3 class="text-3xl font-bold text-gray-700 border-l-4 border-[#b44a6a] pl-4 mb-6">
-            Projets Professionnels & Académiques
-        </h3>
-
-        <div class="bg-white p-6 rounded-3xl shadow-xl shadow-gray-200 hover:shadow-2xl hover:shadow-[#b44a6a]/20 transition duration-500 transform hover:-translate-y-1 border border-gray-100">
-          <div class="flex justify-between items-start mb-3">
-            <h4 class="text-xl font-bold text-[#b44a6a]">Plateforme de Gestion Intégrée</h4>
-            <span class="text-sm text-gray-500 font-medium bg-[#e8c3b8] px-3 py-1 rounded-full">FÉVRIER 2025 - PRÉSENT</span>
-          </div>
+      <!-- Projet 1 -->
+      <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl border border-gray-100 transition-transform duration-500 hover:-translate-y-2 flex flex-col justify-between">
+        <div>
+          <h4 class="text-xl font-bold text-[#b44a6a] mb-3">Plateforme de Gestion Intégrée</h4>
           <p class="text-gray-700 leading-relaxed italic mb-3">
             Gestion des prêts, de la facturation, des assurances et des services financiers connexes.
           </p>
           <p class="text-sm font-semibold text-gray-600">
-            <span class="text-[#9d3e5d] font-extrabold">Stack :</span> SYMFONY, MySQL 11.
+            <span class="text-[#9d3e5d] font-bold">Stack :</span> Symfony, MySQL 11.
           </p>
         </div>
-        
-        <div class="bg-white p-6 rounded-3xl shadow-xl shadow-gray-200 hover:shadow-2xl hover:shadow-[#b44a6a]/20 transition duration-500 transform hover:-translate-y-1 border border-gray-100">
-          <div class="flex justify-between items-start mb-3">
-            <h4 class="text-xl font-bold text-[#b44a6a]">Gestion des Plannings Infirmiers (BE/FR)</h4>
-            <span class="text-sm text-gray-500 font-medium bg-[#e8c3b8] px-3 py-1 rounded-full">FÉVRIER 2025 - PRÉSENT</span>
-          </div>
-          <p class="text-gray-700 leading-relaxed italic mb-3">
-            Conception et développement d’une plateforme de gestion des remplacements et de la planification des infirmiers.
-          </p>
-          <p class="text-sm font-semibold text-gray-600">
-            <span class="text-[#9d3e5d] font-extrabold">Stack :</span> LARAVEL (Back), NUXT JS (Front), MySQL.
-          </p>
-        </div>
-
-        <div class="bg-white p-6 rounded-3xl shadow-xl shadow-gray-200 hover:shadow-2xl hover:shadow-[#b44a6a]/20 transition duration-500 transform hover:-translate-y-1 border border-gray-100">
-          <div class="flex justify-between items-start mb-3">
-            <h4 class="text-xl font-bold text-[#b44a6a]">Marketplace de Formation en Ligne : FORMAFUSION</h4>
-            <span class="text-sm text-gray-500 font-medium bg-[#e8c3b8] px-3 py-1 rounded-full">SEPT. - DÉC. 2024</span>
-          </div>
-          <p class="text-gray-700 leading-relaxed italic mb-3">
-            Développement complet d'une plateforme de vente et d'accès à des formations en ligne.
-          </p>
-          <p class="text-sm font-semibold text-gray-600">
-            <span class="text-[#9d3e5d] font-extrabold">Stack :</span> LARAVEL 10 / PHP 8, MySQL 11.
-          </p>
-        </div>
-
-        <div class="bg-white p-6 rounded-3xl shadow-xl shadow-gray-200 hover:shadow-2xl hover:shadow-[#b44a6a]/20 transition duration-500 transform hover:-translate-y-1 border border-gray-100">
-          <div class="flex justify-between items-start mb-3">
-            <h4 class="text-xl font-bold text-[#b44a6a]">Gestion des Productions Carrefour Akorondrano</h4>
-            <span class="text-sm text-gray-500 font-medium bg-[#e8c3b8] px-3 py-1 rounded-full">JUIN - AOÛT 2024</span>
-          </div>
-          <p class="text-gray-700 leading-relaxed italic mb-3">
-            Développement d'un site pour la gestion des productions et transformations de produits.
-          </p>
-          <p class="text-sm font-semibold text-gray-600">
-            <span class="text-[#9d3e5d] font-extrabold">Stack :</span> DJANGO, Base MySQL.
-          </p>
-        </div>
-        
+        <span class="text-xs sm:text-sm text-gray-500 bg-[#f3e2e0] px-3 py-1 rounded-full mt-6 text-center font-medium">FÉV. 2025 - PRÉSENT</span>
       </div>
 
-      <div class="lg:col-span-1 space-y-12">
-        
-        <div class="bg-white p-8 rounded-3xl shadow-xl border-t-4 border-[#b44a6a]">
-          <h3 class="text-2xl font-bold text-gray-700 mb-6 flex items-center">
-            <svg class="w-6 h-6 mr-3 text-[#b44a6a]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
-            Connaissances Linguistiques
-          </h3>
-          <ul class="space-y-3 text-lg text-gray-700">
-            <li class="flex justify-between border-b border-gray-100 pb-2">
-                <span class="font-semibold text-[#9d3e5d]">Français</span>
-                <span class="font-medium bg-[#e8c3b8] px-3 rounded-full text-sm">C1 - Courant</span>
-            </li>
-            <li class="flex justify-between">
-                <span class="font-semibold text-[#9d3e5d]">Anglais</span>
-                <span class="font-medium bg-[#e8c3b8] px-3 rounded-full text-sm">B2 - Intermédiaire Avancé</span>
-            </li>
-          </ul>
+      <!-- Projet 2 -->
+      <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl border border-gray-100 transition-transform duration-500 hover:-translate-y-2 flex flex-col justify-between">
+        <div>
+          <h4 class="text-xl font-bold text-[#b44a6a] mb-3">Gestion des Plannings Infirmiers (BE/FR)</h4>
+          <p class="text-gray-700 leading-relaxed italic mb-3">
+            Plateforme de gestion des remplacements et de la planification des infirmiers.
+          </p>
+          <p class="text-sm font-semibold text-gray-600">
+            <span class="text-[#9d3e5d] font-bold">Stack :</span> Laravel (Back), Nuxt.js (Front), MySQL.
+          </p>
         </div>
-        
-        <div class="bg-white p-8 rounded-3xl shadow-xl border-t-4 border-[#b44a6a]">
-          <h3 class="text-2xl font-bold text-gray-700 mb-6 flex items-center">
-            <svg class="w-6 h-6 mr-3 text-[#b44a6a]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
-            Sports & Loisirs
-          </h3>
-          <div class="flex flex-wrap gap-2">
-            <span class="px-4 py-2 bg-[#b44a6a] text-white rounded-full text-sm font-medium shadow-md">Vélo</span>
-            <span class="px-4 py-2 bg-[#b44a6a] text-white rounded-full text-sm font-medium shadow-md">Volley</span>
-            <span class="px-4 py-2 bg-[#b44a6a] text-white rounded-full text-sm font-medium shadow-md">Football</span>
-          </div>
+        <span class="text-xs sm:text-sm text-gray-500 bg-[#f3e2e0] px-3 py-1 rounded-full mt-6 text-center font-medium">FÉV. 2025 - PRÉSENT</span>
+      </div>
+
+      <!-- Projet 3 -->
+      <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl border border-gray-100 transition-transform duration-500 hover:-translate-y-2 flex flex-col justify-between">
+        <div>
+          <h4 class="text-xl font-bold text-[#b44a6a] mb-3">Marketplace de Formation en Ligne : FORMAFUSION</h4>
+          <p class="text-gray-700 leading-relaxed italic mb-3">
+            Plateforme de vente et d’accès à des formations en ligne.
+          </p>
+          <p class="text-sm font-semibold text-gray-600">
+            <span class="text-[#9d3e5d] font-bold">Stack :</span> Laravel 10 / PHP 8, MySQL 11.
+          </p>
         </div>
-        
+        <span class="text-xs sm:text-sm text-gray-500 bg-[#f3e2e0] px-3 py-1 rounded-full mt-6 text-center font-medium">SEPT. - DÉC. 2024</span>
+      </div>
+
+      <!-- Projet 4 -->
+      <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl border border-gray-100 transition-transform duration-500 hover:-translate-y-2 flex flex-col justify-between">
+        <div>
+          <h4 class="text-xl font-bold text-[#b44a6a] mb-3">Gestion des Productions Carrefour Akorondrano</h4>
+          <p class="text-gray-700 leading-relaxed italic mb-3">
+            Application de gestion des productions et transformations de produits.
+          </p>
+          <p class="text-sm font-semibold text-gray-600">
+            <span class="text-[#9d3e5d] font-bold">Stack :</span> Django, Base MySQL.
+          </p>
+        </div>
+        <span class="text-xs sm:text-sm text-gray-500 bg-[#f3e2e0] px-3 py-1 rounded-full mt-6 text-center font-medium">JUIN - AOÛT 2024</span>
+      </div>
+
+      <!-- Projet 5 : Paramedica -->
+      <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl border border-gray-100 transition-transform duration-500 hover:-translate-y-2 flex flex-col justify-between">
+        <div>
+          <h4 class="text-xl font-bold text-[#b44a6a] mb-3">Paramedica – Gestion de Rendez-vous Médicaux</h4>
+          <p class="text-gray-700 leading-relaxed italic mb-3">
+            Système complet de gestion des rendez-vous, des docteurs et des disponibilités en ligne.
+          </p>
+          <p class="text-sm font-semibold text-gray-600">
+            <span class="text-[#9d3e5d] font-bold">Stack :</span> Laravel, MySQL, API REST.
+          </p>
+        </div>
+        <span class="text-xs sm:text-sm text-gray-500 bg-[#f3e2e0] px-3 py-1 rounded-full mt-6 text-center font-medium">2025</span>
       </div>
 
     </div>
