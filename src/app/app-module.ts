@@ -9,20 +9,24 @@ import { Contact } from './pages/contact/contact';
 import { Header } from './layout/header/header';
 import { Sidebar } from './layout/sidebar/sidebar';
 import { Footer } from './layout/footer/footer';
+import { Collaborator } from './pages/collaborator/collaborator';
+import { About } from './pages/about/about';
 
 @NgModule({
   declarations: [
     App,
     Accueil,
     Projets,
-    Contact,
     Header,
     Sidebar,
-    Footer
+    Footer,
+    Collaborator,
+    About,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    Contact
   ],
   providers: [
     provideBrowserGlobalErrorListeners()

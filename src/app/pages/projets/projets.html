@@ -3,81 +3,132 @@
 
     <!-- Titre principal -->
     <h2 class="text-4xl sm:text-5xl font-extrabold text-[#b44a6a] tracking-wide font-['Playfair_Display',_serif] mb-16 text-center relative">
-      Mon Parcours & Mes Projets
+      Mes Projets professionnels
       <span class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-[#e8c3b8] rounded-full"></span>
     </h2>
 
-    <!-- Grille de cartes -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+    <!-- Liste verticale des projets -->
+    <div class="space-y-12">
 
-      <!-- Projet 1 -->
-      <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl border border-gray-100 transition-transform duration-500 hover:-translate-y-2 flex flex-col justify-between">
-        <div>
-          <h4 class="text-xl font-bold text-[#b44a6a] mb-3">Plateforme de Gestion Intégrée</h4>
-          <p class="text-gray-700 leading-relaxed italic mb-3">
-            Gestion des prêts, de la facturation, des assurances et des services financiers connexes.
-          </p>
-          <p class="text-sm font-semibold text-gray-600">
-            <span class="text-[#9d3e5d] font-bold">Stack :</span> Symfony, MySQL 11.
-          </p>
+      <!-- Projet 1 : Gestion des Productions Carrefour -->
+      <div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl border border-gray-100 transition-all duration-500 flex flex-col md:flex-row items-center gap-8 p-6">
+        <div class="flex-shrink-0 relative">
+          <img
+            src="assets/confidential.png"
+            alt="Gestion des Productions Carrefour"
+            class="w-40 h-32 md:w-48 md:h-36 object-cover rounded-2xl shadow-md opacity-70"
+          >
+          <span class="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm bg-[#b44a6a]/60 rounded-2xl">
+            Projet local
+          </span>
         </div>
-        <span class="text-xs sm:text-sm text-gray-500 bg-[#f3e2e0] px-3 py-1 rounded-full mt-6 text-center font-medium">FÉV. 2025 - PRÉSENT</span>
+        <div class="flex-grow text-left">
+          <h4 class="text-2xl font-bold text-[#b44a6a] mb-4">Gestion des Productions Carrefour Akorondrano</h4>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            Application interne de suivi des productions, transformations et stocks de produits alimentaires. 
+            Gestion complète des flux de fabrication et traçabilité.
+          </p>
+          <p class="text-sm font-semibold text-gray-600 mb-2">
+            <span class="text-[#9d3e5d] font-bold">Stack :</span> Django, MySQL
+          </p>
+          <p class="text-sm text-gray-500">Juin - Août 2024</p>
+        </div>
       </div>
 
-      <!-- Projet 2 -->
-      <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl border border-gray-100 transition-transform duration-500 hover:-translate-y-2 flex flex-col justify-between">
-        <div>
-          <h4 class="text-xl font-bold text-[#b44a6a] mb-3">Gestion des Plannings Infirmiers (BE/FR)</h4>
-          <p class="text-gray-700 leading-relaxed italic mb-3">
-            Plateforme de gestion des remplacements et de la planification des infirmiers.
+      <!-- Projet 2 : FORMAFUSION -->
+      <div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl border border-gray-100 transition-all duration-500 flex flex-col md:flex-row items-center gap-8 p-6">
+        <a href="https://lgcfp.com/" target="_blank" rel="noopener noreferrer" class="flex-shrink-0 relative group">
+          <img
+            src="assets/formafusion.jpeg"
+            alt="FORMAFUSION – Marketplace de formation"
+            class="w-40 h-32 md:w-48 md:h-36 object-cover rounded-2xl shadow-md group-hover:opacity-80 transition-opacity"
+          >
+          <span class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white font-semibold text-sm bg-[#b44a6a]/60 rounded-2xl">
+            Voir le projet
+          </span>
+        </a>
+        <div class="flex-grow text-left">
+          <h4 class="text-2xl font-bold text-[#b44a6a] mb-4">Marketplace de Formation en Ligne : FORMAFUSION</h4>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            Plateforme complète de vente et gestion de formations en ligne : catalogue dynamique, paiement sécurisé, accès utilisateur et suivi pédagogique.
           </p>
-          <p class="text-sm font-semibold text-gray-600">
-            <span class="text-[#9d3e5d] font-bold">Stack :</span> Laravel (Back), Nuxt.js (Front), MySQL.
+          <p class="text-sm font-semibold text-gray-600 mb-2">
+            <span class="text-[#9d3e5d] font-bold">Stack :</span> Laravel 10, PHP 8, MySQL, GitHub
           </p>
+          <p class="text-sm text-gray-500">Septembre - Décembre 2024</p>
         </div>
-        <span class="text-xs sm:text-sm text-gray-500 bg-[#f3e2e0] px-3 py-1 rounded-full mt-6 text-center font-medium">FÉV. 2025 - PRÉSENT</span>
       </div>
 
-      <!-- Projet 3 -->
-      <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl border border-gray-100 transition-transform duration-500 hover:-translate-y-2 flex flex-col justify-between">
-        <div>
-          <h4 class="text-xl font-bold text-[#b44a6a] mb-3">Marketplace de Formation en Ligne : FORMAFUSION</h4>
-          <p class="text-gray-700 leading-relaxed italic mb-3">
-            Plateforme de vente et d’accès à des formations en ligne.
+      <!-- Projet 3 : Gestion des Plannings Infirmiers -->
+      <div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl border border-gray-100 transition-all duration-500 flex flex-col md:flex-row items-center gap-8 p-6">
+        <a href="https://infiswap.be/" target="_blank" rel="noopener noreferrer" class="flex-shrink-0 relative group">
+          <img
+            src="assets/infiswap.png"
+            alt="Gestion des Plannings Infirmiers"
+            class="w-40 h-32 md:w-48 md:h-36 object-cover rounded-2xl shadow-md group-hover:opacity-80 transition-opacity"
+          >
+          <span class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white font-semibold text-sm bg-[#b44a6a]/60 rounded-2xl">
+            Voir le projet
+          </span>
+        </a>
+        <div class="flex-grow text-left">
+          <h4 class="text-2xl font-bold text-[#b44a6a] mb-4">Gestion des Plannings Infirmiers (BE/FR)</h4>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            Solution internationale de planification et remplacement d'infirmiers : calendrier intelligent, notifications en temps réel et gestion multi-établissements.
           </p>
-          <p class="text-sm font-semibold text-gray-600">
-            <span class="text-[#9d3e5d] font-bold">Stack :</span> Laravel 10 / PHP 8, MySQL 11.
+          <p class="text-sm font-semibold text-gray-600 mb-2">
+            <span class="text-[#9d3e5d] font-bold">Stack :</span> Laravel (Back), Nuxt.js (Front), MySQL, GitLab
           </p>
+          <p class="text-sm text-gray-500">Février - Septembre 2025</p>
         </div>
-        <span class="text-xs sm:text-sm text-gray-500 bg-[#f3e2e0] px-3 py-1 rounded-full mt-6 text-center font-medium">SEPT. - DÉC. 2024</span>
       </div>
 
-      <!-- Projet 4 -->
-      <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl border border-gray-100 transition-transform duration-500 hover:-translate-y-2 flex flex-col justify-between">
-        <div>
-          <h4 class="text-xl font-bold text-[#b44a6a] mb-3">Gestion des Productions Carrefour Akorondrano</h4>
-          <p class="text-gray-700 leading-relaxed italic mb-3">
-            Application de gestion des productions et transformations de produits.
-          </p>
-          <p class="text-sm font-semibold text-gray-600">
-            <span class="text-[#9d3e5d] font-bold">Stack :</span> Django, Base MySQL.
-          </p>
+      <!-- Projet 4 : Paramedica -->
+      <div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl border border-gray-100 transition-all duration-500 flex flex-col md:flex-row items-center gap-8 p-6">
+        <div class="flex-shrink-0 relative">
+          <img
+            src="assets/premedica.png"
+            alt="Paramedica – Gestion rendez-vous médicaux"
+            class="w-40 h-32 md:w-48 md:h-36 object-cover rounded-2xl shadow-md opacity-70"
+          >
+          <span class="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm bg-[#b44a6a]/60 rounded-2xl">
+            Projet local
+          </span>
         </div>
-        <span class="text-xs sm:text-sm text-gray-500 bg-[#f3e2e0] px-3 py-1 rounded-full mt-6 text-center font-medium">JUIN - AOÛT 2024</span>
+        <div class="flex-grow text-left">
+          <h4 class="text-2xl font-bold text-[#b44a6a] mb-4">Premedica – Gestion de Rendez-vous Médicaux</h4>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            Système de prise de rendez-vous en ligne avec gestion des disponibilités médecins, historique patient et rappels automatisés.
+          </p>
+          <p class="text-sm font-semibold text-gray-600 mb-2">
+            <span class="text-[#9d3e5d] font-bold">Stack :</span> Laravel, MySQL, API REST, GitHub
+          </p>
+          <p class="text-sm text-gray-500">Juillet - Décembre 2025</p>
+        </div>
       </div>
 
-      <!-- Projet 5 : Paramedica -->
-      <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl border border-gray-100 transition-transform duration-500 hover:-translate-y-2 flex flex-col justify-between">
-        <div>
-          <h4 class="text-xl font-bold text-[#b44a6a] mb-3">Paramedica – Gestion de Rendez-vous Médicaux</h4>
-          <p class="text-gray-700 leading-relaxed italic mb-3">
-            Système complet de gestion des rendez-vous, des docteurs et des disponibilités en ligne.
+      <!-- Projet 5 : Plateforme de Gestion Intégrée -->
+      <div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl border border-gray-100 transition-all duration-500 flex flex-col md:flex-row items-center gap-8 p-6">
+        <a href="https://app-qic.be/" target="_blank" rel="noopener noreferrer" class="flex-shrink-0 relative group">
+          <img
+            src="assets/qic.png"
+            alt="Plateforme de Gestion Intégrée"
+            class="w-40 h-32 md:w-48 md:h-36 object-cover rounded-2xl shadow-md group-hover:opacity-80 transition-opacity"
+          >
+          <span class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white font-semibold text-sm bg-[#b44a6a]/60 rounded-2xl">
+            Voir le projet
+          </span>
+        </a>
+        <div class="flex-grow text-left">
+          <h4 class="text-2xl font-bold text-[#b44a6a] mb-4">Plateforme de Gestion Intégrée</h4>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            Solution complète pour la gestion de microcrédits : demande de prêt, facturation, suivi assurance et reporting financier avancé.
           </p>
-          <p class="text-sm font-semibold text-gray-600">
-            <span class="text-[#9d3e5d] font-bold">Stack :</span> Laravel, MySQL, API REST.
+          <p class="text-sm font-semibold text-gray-600 mb-2">
+            <span class="text-[#9d3e5d] font-bold">Stack :</span> Symfony, MySQL, GitLab CI/CD
           </p>
+          <p class="text-sm text-gray-500">Août - Décembre 2025</p>
         </div>
-        <span class="text-xs sm:text-sm text-gray-500 bg-[#f3e2e0] px-3 py-1 rounded-full mt-6 text-center font-medium">2025</span>
       </div>
 
     </div>
