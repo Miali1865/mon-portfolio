@@ -1,106 +1,118 @@
-<section class="bg-[#fcf7f7] py-16 px-6 md:px-16 xl:px-32 font-[Poppins]">
-    <div class="max-w-7xl mx-auto text-center">
-  
+<section class="bg-[#fcf7f7] py-16 px-6 md:py-20 md:px-16 xl:px-32 font-[Poppins]">
+  <div class="max-w-7xl mx-auto text-center">
       <!-- Titre -->
       <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#b44a6a] tracking-wide font-['Playfair_Display',_serif] mb-12 relative inline-block">
-        Mes Compétences Techniques
-        <span class="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-[#e8c3b8] rounded-full"></span>
+          Mes Compétences Techniques
+          <span class="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-[#e8c3b8] rounded-full opacity-70"></span>
       </h2>
-  
-      <p class="text-lg text-gray-700 mb-12 max-w-3xl mx-auto leading-relaxed">
-        Technologies et outils que je maîtrise et utilise au quotidien.
+      <p class="text-base md:text-lg text-gray-700 mb-12 max-w-3xl mx-auto leading-relaxed px-4">
+          Technologies et outils que je maîtrise et utilise au quotidien.
       </p>
-  
-      <!-- Une seule ligne avec scroll horizontal fluide sur mobile -->
-      <div class="overflow-x-auto pb-4 -mx-6 px-6 md:mx-0 md:px-0">
-        <div class="flex items-center justify-start md:justify-center gap-8 min-w-max">
-  
-          <!-- Laravel -->
-          <div class="group transition-all duration-300 ease-in-out transform hover:scale-110 flex flex-col items-center">
-            <div class="w-20 h-20 rounded-full bg-white shadow-md flex items-center justify-center ring-2 ring-[#e8c3b8]/30 hover:ring-[#b44a6a]/50 transition-all">
-              <img src="https://miro.medium.com/1*CweHpGpUvTbdSCwZEm61cA.jpeg" alt="Laravel" class="w-12 h-12 object-contain">
-            </div>
-            <p class="mt-2 text-xs font-medium text-gray-600">Laravel</p>
+
+      <!-- Scroll horizontal optimisé mobile -->
+      <div class="relative">
+          <!-- Ombre dégradée pour indiquer le scroll (mobile) -->
+          <div class="absolute left-0 top-0 bottom-0 w-12 bg-gradient-to-r from-[#fcf7f7] to-transparent z-10 pointer-events-none md:hidden"></div>
+          <div class="absolute right-0 top-0 bottom-0 w-12 bg-gradient-to-l from-[#fcf7f7] to-transparent z-10 pointer-events-none md:hidden"></div>
+
+          <div class="overflow-x-auto pb-6 scroll-smooth snap-x snap-mandatory -mx-6 px-6 md:mx-0 md:px-0 scrollbar-hide">
+              <div class="flex items-center justify-start md:justify-center gap-10 md:gap-12 min-w-max md:flex-wrap md:min-w-0">
+                  <!-- Laravel -->
+                  <div class="group snap-center flex flex-col items-center min-w-[100px]">
+                      <div class="w-20 h-20 md:w-24 md:h-24 rounded-full bg-white shadow-lg flex items-center justify-center ring-4 ring-[#e8c3b8]/20 group-hover:ring-[#b44a6a]/40 group-hover:shadow-2xl transition-all duration-500 ease-out transform group-hover:scale-110 group-hover:-translate-y-2">
+                          <img src="https://download.logo.wine/logo/Laravel/Laravel-Logo.wine.png" alt="Laravel" class="w-14 h-14 md:w-16 md:h-16 object-contain">
+                      </div>
+                      <p class="mt-3 text-sm md:text-base font-semibold text-gray-700">Laravel</p>
+                  </div>
+
+                  <!-- Symfony -->
+                  <div class="group snap-center flex flex-col items-center min-w-[100px]">
+                      <div class="w-20 h-20 md:w-24 md:h-24 rounded-full bg-white shadow-lg flex items-center justify-center ring-4 ring-[#e8c3b8]/20 group-hover:ring-[#b44a6a]/40 group-hover:shadow-2xl transition-all duration-500 ease-out transform group-hover:scale-110 group-hover:-translate-y-2">
+                          <img src="https://symfony.com/images/opengraph/symfony.png" alt="Symfony" class="w-14 h-14 md:w-16 md:h-16 object-contain">
+                      </div>
+                      <p class="mt-3 text-sm md:text-base font-semibold text-gray-700">Symfony</p>
+                  </div>
+
+                  <!-- Django -->
+                  <div class="group snap-center flex flex-col items-center min-w-[100px]">
+                      <div class="w-20 h-20 md:w-24 md:h-24 rounded-full bg-white shadow-lg flex items-center justify-center ring-4 ring-[#e8c3b8]/20 group-hover:ring-[#b44a6a]/40 group-hover:shadow-2xl transition-all duration-500 ease-out transform group-hover:scale-110 group-hover:-translate-y-2">
+                          <img src="https://download.logo.wine/logo/Django_(web_framework)/Django_(web_framework)-Logo.wine.png" alt="Django" class="w-14 h-14 md:w-16 md:h-16 object-contain">
+                      </div>
+                      <p class="mt-3 text-sm md:text-base font-semibold text-gray-700">Django</p>
+                  </div>
+
+                  <!-- Angular -->
+                  <div class="group snap-center flex flex-col items-center min-w-[100px]">
+                      <div class="w-20 h-20 md:w-24 md:h-24 rounded-full bg-white shadow-lg flex items-center justify-center ring-4 ring-[#e8c3b8]/20 group-hover:ring-[#b44a6a]/40 group-hover:shadow-2xl transition-all duration-500 ease-out transform group-hover:scale-110 group-hover:-translate-y-2">
+                          <img src="https://logowik.com/content/uploads/images/angular-new6082.logowik.com.webp" alt="Angular" class="w-14 h-14 md:w-16 md:h-16 object-contain">
+                      </div>
+                      <p class="mt-3 text-sm md:text-base font-semibold text-gray-700">Angular</p>
+                  </div>
+
+                  <!-- Nuxt.js (utilisé logo Nuxt officiel similaire) -->
+                  <div class="group snap-center flex flex-col items-center min-w-[100px]">
+                      <div class="w-20 h-20 md:w-24 md:h-24 rounded-full bg-white shadow-lg flex items-center justify-center ring-4 ring-[#e8c3b8]/20 group-hover:ring-[#b44a6a]/40 group-hover:shadow-2xl transition-all duration-500 ease-out transform group-hover:scale-110 group-hover:-translate-y-2">
+                          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Nuxt_logo.svg/2560px-Nuxt_logo.svg.png" alt="Nuxt.js" class="w-14 h-14 md:w-16 md:h-16 object-contain">
+                      </div>
+                      <p class="mt-3 text-sm md:text-base font-semibold text-gray-700">Nuxt.js</p>
+                  </div>
+
+                  <!-- PHP -->
+                  <div class="group snap-center flex flex-col items-center min-w-[100px]">
+                      <div class="w-20 h-20 md:w-24 md:h-24 rounded-full bg-white shadow-lg flex items-center justify-center ring-4 ring-[#e8c3b8]/20 group-hover:ring-[#b44a6a]/40 group-hover:shadow-2xl transition-all duration-500 ease-out transform group-hover:scale-110 group-hover:-translate-y-2">
+                          <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="PHP" class="w-14 h-14 md:w-16 md:h-16 object-contain">
+                      </div>
+                      <p class="mt-3 text-sm md:text-base font-semibold text-gray-700">PHP</p>
+                  </div>
+
+                  <!-- MySQL -->
+                  <div class="group snap-center flex flex-col items-center min-w-[100px]">
+                      <div class="w-20 h-20 md:w-24 md:h-24 rounded-full bg-white shadow-lg flex items-center justify-center ring-4 ring-[#e8c3b8]/20 group-hover:ring-[#b44a6a]/40 group-hover:shadow-2xl transition-all duration-500 ease-out transform group-hover:scale-110 group-hover:-translate-y-2">
+                          <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="MySQL" class="w-14 h-14 md:w-16 md:h-16 object-contain">
+                      </div>
+                      <p class="mt-3 text-sm md:text-base font-semibold text-gray-700">MySQL</p>
+                  </div>
+
+                  <!-- Tailwind CSS -->
+                  <div class="group snap-center flex flex-col items-center min-w-[100px]">
+                      <div class="w-20 h-20 md:w-24 md:h-24 rounded-full bg-white shadow-lg flex items-center justify-center ring-4 ring-[#e8c3b8]/20 group-hover:ring-[#b44a6a]/40 group-hover:shadow-2xl transition-all duration-500 ease-out transform group-hover:scale-110 group-hover:-translate-y-2">
+                          <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/tailwind-css-icon.svg" alt="Tailwind CSS" class="w-14 h-14 md:w-16 md:h-16 object-contain">
+                      </div>
+                      <p class="mt-3 text-sm md:text-base font-semibold text-gray-700">Tailwind</p>
+                  </div>
+
+                  <!-- Git -->
+                  <div class="group snap-center flex flex-col items-center min-w-[100px]">
+                      <div class="w-20 h-20 md:w-24 md:h-24 rounded-full bg-white shadow-lg flex items-center justify-center ring-4 ring-[#e8c3b8]/20 group-hover:ring-[#b44a6a]/40 group-hover:shadow-2xl transition-all duration-500 ease-out transform group-hover:scale-110 group-hover:-translate-y-2">
+                          <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git" class="w-14 h-14 md:w-16 md:h-16 object-contain">
+                      </div>
+                      <p class="mt-3 text-sm md:text-base font-semibold text-gray-700">Git</p>
+                  </div>
+
+                  <!-- REST API -->
+                  <div class="group snap-center flex flex-col items-center min-w-[100px]">
+                      <div class="w-20 h-20 md:w-24 md:h-24 rounded-full bg-white shadow-lg flex items-center justify-center ring-4 ring-[#e8c3b8]/20 group-hover:ring-[#b44a6a]/40 group-hover:shadow-2xl transition-all duration-500 ease-out transform group-hover:scale-110 group-hover:-translate-y-2">
+                          <img src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/rest-api-icon.svg" alt="REST API" class="w-14 h-14 md:w-16 md:h-16 object-contain">
+                      </div>
+                      <p class="mt-3 text-sm md:text-base font-semibold text-gray-700">REST API</p>
+                  </div>
+              </div>
           </div>
-  
-          <!-- Symfony -->
-          <div class="group transition-all duration-300 ease-in-out transform hover:scale-110 flex flex-col items-center">
-            <div class="w-20 h-20 rounded-full bg-white shadow-md flex items-center justify-center ring-2 ring-[#e8c3b8]/30 hover:ring-[#b44a6a]/50 transition-all">
-              <img src="https://symfony.com/images/opengraph/symfony.png" alt="Symfony" class="w-12 h-12 object-contain">
-            </div>
-            <p class="mt-2 text-xs font-medium text-gray-600">Symfony</p>
-          </div>
-  
-          <!-- Django -->
-          <div class="group transition-all duration-300 ease-in-out transform hover:scale-110 flex flex-col items-center">
-            <div class="w-20 h-20 rounded-full bg-white shadow-md flex items-center justify-center ring-2 ring-[#e8c3b8]/30 hover:ring-[#b44a6a]/50 transition-all">
-              <img src="https://1000logos.net/wp-content/uploads/2020/08/Django-Logo.png" alt="Django" class="w-12 h-12 object-contain">
-            </div>
-            <p class="mt-2 text-xs font-medium text-gray-600">Django</p>
-          </div>
-  
-          <!-- Angular -->
-          <div class="group transition-all duration-300 ease-in-out transform hover:scale-110 flex flex-col items-center">
-            <div class="w-20 h-20 rounded-full bg-white shadow-md flex items-center justify-center ring-2 ring-[#e8c3b8]/30 hover:ring-[#b44a6a]/50 transition-all">
-              <img src="https://angular.dev/assets/images/press-kit/do_and_dont.png" alt="Angular" class="w-12 h-12 object-contain">
-            </div>
-            <p class="mt-2 text-xs font-medium text-gray-600">Angular</p>
-          </div>
-  
-          <!-- Nuxt.js -->
-          <div class="group transition-all duration-300 ease-in-out transform hover:scale-110 flex flex-col items-center">
-            <div class="w-20 h-20 rounded-full bg-white shadow-md flex items-center justify-center ring-2 ring-[#e8c3b8]/30 hover:ring-[#b44a6a]/50 transition-all">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Nuxt_logo.svg/2560px-Nuxt_logo.svg.png" alt="Nuxt.js" class="w-12 h-12 object-contain">
-            </div>
-            <p class="mt-2 text-xs font-medium text-gray-600">Nuxt.js</p>
-          </div>
-  
-          <!-- PHP -->
-          <div class="group transition-all duration-300 ease-in-out transform hover:scale-110 flex flex-col items-center">
-            <div class="w-20 h-20 rounded-full bg-white shadow-md flex items-center justify-center ring-2 ring-[#e8c3b8]/30 hover:ring-[#b44a6a]/50 transition-all">
-              <img src="https://www.php.net/images/logos/new-php-logo.svg" alt="PHP" class="w-12 h-12 object-contain">
-            </div>
-            <p class="mt-2 text-xs font-medium text-gray-600">PHP</p>
-          </div>
-  
-          <!-- MySQL -->
-          <div class="group transition-all duration-300 ease-in-out transform hover:scale-110 flex flex-col items-center">
-            <div class="w-20 h-20 rounded-full bg-white shadow-md flex items-center justify-center ring-2 ring-[#e8c3b8]/30 hover:ring-[#b44a6a]/50 transition-all">
-              <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="MySQL" class="w-12 h-12 object-contain">
-            </div>
-            <p class="mt-2 text-xs font-medium text-gray-600">MySQL</p>
-          </div>
-  
-          <!-- Tailwind CSS -->
-          <div class="group transition-all duration-300 ease-in-out transform hover:scale-110 flex flex-col items-center">
-            <div class="w-20 h-20 rounded-full bg-white shadow-md flex items-center justify-center ring-2 ring-[#e8c3b8]/30 hover:ring-[#b44a6a]/50 transition-all">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png" alt="Tailwind CSS" class="w-12 h-12 object-contain">
-            </div>
-            <p class="mt-2 text-xs font-medium text-gray-600">Tailwind</p>
-          </div>
-  
-          <!-- Git -->
-          <div class="group transition-all duration-300 ease-in-out transform hover:scale-110 flex flex-col items-center">
-            <div class="w-20 h-20 rounded-full bg-white shadow-md flex items-center justify-center ring-2 ring-[#e8c3b8]/30 hover:ring-[#b44a6a]/50 transition-all">
-              <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git" class="w-12 h-12 object-contain">
-            </div>
-            <p class="mt-2 text-xs font-medium text-gray-600">Git</p>
-          </div>
-  
-          <!-- REST API -->
-          <div class="group transition-all duration-300 ease-in-out transform hover:scale-110 flex flex-col items-center">
-            <div class="w-20 h-20 rounded-full bg-white shadow-md flex items-center justify-center ring-2 ring-[#e8c3b8]/30 hover:ring-[#b44a6a]/50 transition-all">
-              <img src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/rest-api-icon.svg" alt="REST API" class="w-12 h-12 object-contain">
-            </div>
-            <p class="mt-2 text-xs font-medium text-gray-600">REST API</p>
-          </div>
-  
-        </div>
       </div>
-  
-      <p class="text-sm text-gray-500 mt-10 italic">
-        Et toujours prête à apprendre de nouvelles technologies.
+
+      <p class="text-sm md:text-base text-gray-500 mt-12 italic">
+          Et toujours prête à apprendre de nouvelles technologies.
       </p>
-  
-    </div>
-  </section>
+  </div>
+
+  <!-- Cache la scrollbar native mais garde le scroll (optionnel) -->
+  <style>
+      .scrollbar-hide {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+      }
+      .scrollbar-hide::-webkit-scrollbar {
+          display: none;
+      }
+  </style>
+</section>
