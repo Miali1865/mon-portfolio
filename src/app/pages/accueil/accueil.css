@@ -1,0 +1,128 @@
+/* Animations corrigées pour éviter le chevauchement */
+@keyframes titleFade {
+    0%, 45% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    50%, 95% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes titleFadeDelayed {
+    0%, 45% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    50%, 95% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0) rotate(3deg) scale(1.05);
+    }
+    50% {
+      transform: translateY(-10px) rotate(3deg) scale(1.05);
+    }
+  }
+  
+  @keyframes lineExpand {
+    0% {
+      width: 25%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes bounceIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.3) translateY(-20px);
+    }
+    50% {
+      transform: scale(1.05) translateY(0);
+    }
+    70% {
+      transform: scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes pulseActive {
+    0%, 100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.5;
+      transform: scale(0.9);
+    }
+  }
+  
+  /* Classes d'animation */
+  .animate-title-fade {
+    animation: titleFade 6s ease-in-out infinite;
+  }
+  
+  .animate-title-fade-delayed {
+    animation: titleFadeDelayed 6s ease-in-out infinite;
+  }
+  
+  .animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+    opacity: 0;
+  }
+  
+  .animate-fade-in-up.delay-200 {
+    animation-delay: 0.2s;
+  }
+  
+  .animate-fade-in-up.delay-300 {
+    animation-delay: 0.4s;
+  }
+  
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .animate-line-expand {
+    animation: lineExpand 1s ease-out forwards;
+    animation-delay: 0.5s;
+  }
+  
+  .animate-bounce-in {
+    animation: bounceIn 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+    animation-delay: 0.8s;
+    opacity: 0;
+  }
+  
+  .animate-pulse-active {
+    animation: pulseActive 2s ease-in-out infinite;
+  }
