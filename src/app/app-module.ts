@@ -11,6 +11,7 @@ import { Sidebar } from './layout/sidebar/sidebar';
 import { Footer } from './layout/footer/footer';
 import { Collaborator } from './pages/collaborator/collaborator';
 import { About } from './pages/about/about';
+import { Experiences } from './experiences/experiences';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { About } from './pages/about/about';
     Footer,
     Collaborator,
     About,
+    Experiences,
   ],
   imports: [
     BrowserModule,
